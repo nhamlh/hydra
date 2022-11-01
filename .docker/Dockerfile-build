@@ -38,6 +38,6 @@ EXPOSE 4444 4445
 USER ory
 
 ENTRYPOINT ["hydra"]
-CMD ["serve"]
+CMD ["serve", "all"]
 
 
